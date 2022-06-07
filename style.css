@@ -1,0 +1,356 @@
+*{
+
+margin: 0;
+padding: 0;
+}
+  
+
+
+.fonte-titulo{
+    font-family: 'Press Start 2P', cursive;
+}
+.cor-especial{
+    color: black;
+}
+.bg{
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+main h1{
+    font-size: 40px;
+    text-align: center;
+    
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 100px auto;
+    font-weight: bold;
+
+}
+.home-h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin: 100px auto;
+    font-weight: bold;
+    color:yellow;
+
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 100px auto;
+    font-weight: bold;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.foto-principal{
+    width: 30%;
+    border: 15px solid black;
+    margin: 60px;
+    transition: all 1s;
+    transform: scale(1.0);
+}
+.foto-principal:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+    height: 100%;
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0px;
+    
+}
+.s-m{
+  margin-left: 700px;
+  right: 10%;
+  bottom: 5%;
+  align-items: center;
+  display: flex;
+  margin-right: 500px;
+  text-align: center;
+}
+.s-m a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 6px;
+   
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+}
+.transiçao:hover{
+    transition: all 1s;
+    color: red;
+    transform: scale(2.0);
+}
+.main-sobre h1{
+    font-size: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+.main-sobre p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    border: 20px solid yellow;
+    border-radius: 15px;
+   
+}
+
+.foto-sobre{
+    width: 30%;
+    border: 15px solid black;
+    margin: 60px;
+    transition: all 1s;
+    transform: scale(1.0);
+    margin-left: 450px;
+    margin-top: 60px;
+}
+.foto-sobre:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.alinhar-texto-imagem{
+    display: flex;
+    align-items: center;
+}
+.alinhar-texto-imagem p{
+    font-size: 30px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0px;
+    border: 20px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+}
+.main-contato h1{
+    font-size: 60px;
+    margin-right: 70px;
+    text-align: center;
+}
+.carta-contato{
+    width: 20%;
+    margin-right: 200px;
+}
+.main-contato2{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0 0 10px;
+    
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 15px solid black;
+    border-radius: 15px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+form textarea{
+    border: 15px solid black;
+    border-radius: 15px ;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+.enviar{
+    background-color: yellow;
+    transition: all 1s;
+    transform: scale(1.2);
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.enviar:hover{
+    transition: all 1s;
+    color: red;
+}
+.main-portfolio h1{
+    font-size: 60px;
+}
+
+.foto-portfolio{
+    width: 30%;
+    border: 15px solid black;
+    margin: 60px;
+    transition: all 1s;
+    transform: scale(1.0);
+    margin-left: 450px;
+    margin-top: 60px;
+    display: flex;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.foto-portfolio:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.main-portfolio h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-galeria h1{
+    font-size: 50px;
+    margin-right: 50px;
+}
+.camera-galeria{
+    width: 20%;
+    margin-right: 200px;
+}
+.grid .coluna{
+    display: inline-block;
+    width: 400px;
+    margin: 0 8px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    
+}
+.grid .coluna img{
+    width: 400px;
+    border: 15px solid black;
+  
+}
+
+@media screen and (max-width:480px) {
+
+.navbar,.home-h1,.container{
+    width: 100%;
+}
+.home-h1{
+    font-size: 100px;
+    text-align: center;
+    margin-left: 100px;
+}
+.foto-principal{
+    width: 470px;
+    margin-left: 200px;
+    height: 450px;
+} 
+.footer-principal{
+    width: 945px;
+    margin-bottom: 100px;
+   
+}
+.footer-principal p{
+    font-size: 30px;
+}
+.container h2{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 200px;
+}
+.main-sobre h1{
+    text-align: center;
+    margin-left: 390px;
+    font-size: 80px;
+    
+
+}
+.foto-sobre{
+    width: 650px;
+    height: 850px;
+    margin-right: 800px;
+    
+}
+.container {
+    display: block;
+}
+.carta-contato{
+    width: 410px;
+    margin-left: 250px;
+}
+
+.footer-cell{
+    width: 940px;
+    margin-bottom: 100px;
+}
+.main-sobre p {
+    font-size: 70px;
+    margin-left: 400px;
+    border: none;
+    display: inline-block;
+    
+}
+.footer-sobre{
+    width: 1500px;
+    
+}
+.footer-galeria{
+    width: 940px;
+    margin-bottom: 100px;
+}
+.main-galeria h1{
+    font-size: 70px;
+    margin-left: 210px;
+
+}
+.main-contato h1 {
+    font-size: 60px;
+    margin-left: 250px;
+}
+.grid .coluna{
+    margin-left: 250px;
+}
+.camera-galeria{
+    width: 500px;
+    margin-left: 180px;
+}
+.footer-portfolio{
+     width: 950px;
+}
+.main-portfolio h1 {
+    margin-left: 250px;
+}  
+.foto-portfolio{
+    width: 500px;
+    margin-left: 250px;
+}
+.main-portfolio h2 {
+    font-size: 50px;
+    margin-left: 350px;
+}
+.main-portfolio h3 {
+    font-size: 50px;
+    margin-left: 350px;
+}
+} 
+   
+
